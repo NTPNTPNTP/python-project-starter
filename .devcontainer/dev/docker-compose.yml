@@ -1,7 +1,7 @@
 services:
   dev:
     image: ${PROJECT_NAME}:latest
-    container_name: ${PROJECT_NAME}-dev
+    # container_name: ${PROJECT_NAME}-dev
     build: 
       context: .
       dockerfile: dockerfile
